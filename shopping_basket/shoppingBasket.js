@@ -28,7 +28,7 @@ class ShoppingBasket {
   }
 
   addItem(candy) {
-    this.candies = this.candies.concat(candy);
+    this.candies.push(candy);
   }
 
   applyDiscount(discount) {
